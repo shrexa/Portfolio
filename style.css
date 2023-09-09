@@ -304,7 +304,9 @@ p{
     font-weight: 500;
     margin: 15px;
 }
-
+h2{
+    text-align: center;
+}
 .project-list div:hover{
     background: cornflowerblue;
     transform: translateY(-10px);
