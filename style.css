@@ -99,7 +99,7 @@ body {
   font-size: 50px;
   font-weight: 700;
   color: #000;
-}
+  font-family: 'Poppins', sans-serif;}
 
 .content .section-1 h3 {
   font-size: 24px;
@@ -346,7 +346,7 @@ h2 {
 /*--------------------------------------------------------------------------------Contact-------------------------------------------------------------------------------*/
 #contact {
   padding: 50px 0;
-  color: #000;
+  /* color: #000; */
   padding-left: 90px;
 }
 
@@ -356,6 +356,7 @@ h2 {
 
 .contact-left p {
   margin-top: 30px;
+  color: rgb(9, 17, 33);
 }
 
 .contact-left p i {
@@ -416,6 +417,7 @@ form textarea {
   font-size: 18px;
   border-radius: 6px;
 }
+
 input::placeholder {
   color: rgb(12, 15, 19);
   opacity: 1;
