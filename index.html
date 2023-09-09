@@ -36,8 +36,7 @@
             </nav>
             <div class="content">
                 <div class="section-1">
-                    <h1>Hi, I am Shriya Choudhary!</h1>
-                    <!-- welcome to my portfolio -->
+                    <h1> <span class="inputt"></span></h1>
                     <h3>Full Stack Web Developer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, a, aliquam quod nesciunt quo quas facilis eos dolor voluptatem reiciendis obcaecati sapiente, id officia? Minima rem cumque officia eveniet illo.</p>
                   <!-- //add resume drive or pdf-->
@@ -233,8 +232,15 @@
 </div> 
 
 
-<script src="script.js">
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+       var typed= new Typed(".inputt",{
+        strings:["Hi, I am Shriya Choudhary","Welcome to my portfolio!"],
+        typespeed:120,
+        backspeed:10,
+        // loop:true
+    })
 </script>
-
 </body>
 </html>
