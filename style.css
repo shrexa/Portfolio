@@ -151,6 +151,7 @@ p {
 .content .section-2 img {
   clip-path: circle();
   width: 80%;
+  transition: 1s;
 }
 
 .content .social {
@@ -192,6 +193,7 @@ p {
 .about-col-1 img {
   width: 80%;
   border-radius: 15px;
+  /* transition: 1s; */
 }
 
 .about-col-2 {
