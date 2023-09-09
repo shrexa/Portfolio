@@ -96,10 +96,11 @@ body {
 
 .content .section-1 h1 {
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 39px;
   font-weight: 700;
   color: #000;
-  font-family: 'Poppins', sans-serif;}
+  font-family: 'Poppins', sans-serif;
+}
 
 .content .section-1 h3 {
   font-size: 24px;
