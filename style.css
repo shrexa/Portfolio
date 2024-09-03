@@ -280,7 +280,7 @@ p {
 .project-list div {
   background: rgb(107, 135, 188);
   padding: 40px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
@@ -454,4 +454,29 @@ textarea::placeholder {
 .contact-right .btn:hover {
   background-color: #fff;
   color: cornflowerblue;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    .contact-right .btn {
+      background-color: #14a33a;
+      color: rgb(161, 219, 23);
+    }
+    /* container {
+      height: 350vh; 
+    } */
+    .container .box {
+      height: 220vh;
+      width: 90%;
+      padding: 0 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      z-index: 10;
+      border: 2px solid rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      display: flex;
+      backdrop-filter: blur(25px);
+      box-shadow: 15px 17px 17px 17px rgba(26, 5, 161, 0.15);
+    }
+
+  }
 }
