@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -9,12 +9,11 @@ body {
   /* background: url(assets/bg1.jpg); */
   /* background-color: cornflowerblue; */
   background-size: cover;
-  /* background-color: rgb(76, 100, 145); */
-  background-position: center;
+  /* background-position: center; */
 }
 
 .container {
-  height: 180vh; /* distance btwn about nd container: ; */
+  height: 100vh; /* distance btwn about nd container: ; */
   /* width: 100%; */
   position: relative;
   display: flex;
@@ -94,6 +93,7 @@ body {
   align-items: center;
   width: 100%;
   margin-top: 8%;
+  padding-left: 80px;
   padding-left: 80px;
 }
 
@@ -187,12 +187,12 @@ p {
 
 /*-----------------------------------------------------------------------------About-----------------------------------------------------------------------------------*/
 #about {
-  padding: 50px 90px;
+  padding: 90px;
   color: #000;
 }
 
 .row {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -203,9 +203,11 @@ p {
 }
 
 .about-col-1 img {
-  width: 80%;
-  border-radius: 15px;
-  /* transition: 1s; */
+  width: 30%;
+  height: 380px ;
+  padding: 30px;
+  border-radius: 15%;
+ 
 }
 
 .about-col-2 {
@@ -470,17 +472,21 @@ textarea::placeholder {
   
   body {
    
-  
   .container {
-  height: 180vh;  
+  height: 140vh;  
+  width: 170%;
+  margin-right: 0px;
+  padding: 130px 0px 30px 15px;
+
   }
   .container .box {
-    height: 200vh;
-    width: 99%;
-    padding: 50px 15px 30px 15px;
+    height: 160vh;
+    /* width: 350%; */
+    /* padding: 150px 0px 30px 15px; */
     box-shadow: 0px;
     /* margin: 10 0 10 0;  */
 }  
+
 
 .content {
    display: block;
@@ -489,6 +495,10 @@ textarea::placeholder {
   margin-top: 50%;
   margin-bottom: 10%;
 }
+.content .section-1 {
+  position: relative;
+  width: 95%;
+}  
 
 
 }
@@ -515,7 +525,10 @@ textarea::placeholder {
 }
 
 @media only screen and (max-width: 870px) {
-  .row2 {
-    display: flex;
+  .about-col-1 img {
+    height: 10 px;
+    width: 70%;
+    border-radius: 25%;
   }
+  
 }
