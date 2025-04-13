@@ -173,57 +173,69 @@ nav ul li a:hover {
 /* ------------------ About Section ------------------ */
 
 #about {
-  padding: 80px 90px;
-  background-color: #f8f9fb;
+  padding: 90px;
+  color: #000;
+  background: #f6f8fc;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.about-col-1,
-.about-col-2 {
-  flex: 1 1 45%;
-}
 .about-col-1 img {
-  width: 100%;
-  border-radius: 15%;
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-.subtitle {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.tab-titles {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0;
 }
 
 .tab-links {
-  margin-right: 40px;
-  font-size: 18px;
-  font-weight: 500;
   cursor: pointer;
+  font-weight: 500;
+  color: #333;
   position: relative;
-  color: black;
+  padding-bottom: 5px;
 }
-.tab-links::after {
+
+.tab-links.active-link {
+  color: cornflowerblue;
+}
+
+.tab-links.active-link::after {
   content: "";
-  width: 0;
+  position: absolute;
+  width: 50%;
   height: 3px;
   background: cornflowerblue;
-  position: absolute;
+  bottom: 0;
   left: 0;
-  bottom: -8px;
-  transition: 0.5s;
 }
-.tab-links.active-link::after {
-  width: 50%;
-}
+
 .tab-contents {
   display: none;
+  animation: fadeIn 0.5s ease-in;
 }
+
 .tab-contents.active-tab {
   display: block;
+}
+
+.tab-contents ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.tab-contents ul li span {
+  font-weight: 600;
+  color: cornflowerblue;
+}
+
+/* Optional fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ------------------ Project Section ------------------ */
@@ -310,3 +322,16 @@ form textarea {
     justify-content: center;
   }
 }
+
+#imgModal {
+  transition: all 0.3s ease-in-out;
+}
+
+#imgModal img {
+  transition: transform 0.3s ease-in-out;
+}
+
+#imgModal.show img {
+  transform: scale(1.05);
+}
+
