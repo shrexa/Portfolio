@@ -276,23 +276,105 @@ nav ul li a:hover {
 /* ------------------ Contact ------------------ */
 
 #contact {
-  padding: 60px 90px;
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #e6eeff, #ffffff);
+  color: #000;
 }
 
 .contact-left,
 .contact-right {
-  flex: 1 1 45%;
+  flex-basis: 45%;
 }
+
+.contact-left h1 {
+  font-size: 2.5rem;
+  color: #002c6a;
+}
+
+.contact-left p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.contact-left p i {
+  color: cornflowerblue;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
 form input,
 form textarea {
-  width: 100%;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 6px;
   background: #f0f4ff;
-  border: 1px solid cornflowerblue;
-  color: #000;
+  border: 2px solid #c3d3f7;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s;
 }
+
+form input:focus,
+form textarea:focus {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.social a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: cornflowerblue;
+  transition: transform 0.3s ease, color 0.3s;
+}
+
+.social a:hover {
+  color: #002c6a;
+  transform: scale(1.2);
+}
+
+.btn {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #3f72c7;
+  transform: translateY(-2px);
+}
+
+.btn.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(100, 149, 237, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(100, 149, 237, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(100, 149, 237, 0);
+  }
+}
+
+.btn.hover-glow:hover {
+  box-shadow: 0 0 15px rgba(100, 149, 237, 0.6);
+}
+
 
 /* ------------------ Responsive ------------------ */
 
