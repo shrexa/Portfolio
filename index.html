@@ -4,58 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PORTFOLIO</title>
+  <title>Shriya Choudhary - Portfolio</title>
   <link rel="icon" href="/myassets/logo2.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="boxicons.min.css"> -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
-  <div class="container">
+  <nav id="navbar">
+    <a href="#" class="logo">SHRIYA CHOUDHARY</a>
+    <ul class="headerLink">
+      <li><a href="#home" class="headerLink">HOME</a></li>
+      <li><a href="#about" class="headerLink">ABOUT</a></li>
+      <li><a href="#projects" class="headerLink">PROJECTS</a></li>
+      <li><a href="#certificate" class="headerLink">ACTIVITIES</a></li>
+      <li><a href="#contact" class="headerLink">CONTACT</a></li>
+    </ul>
+    <i class="fa fa-bars"></i>
+  </nav>
+
+  <div class="container" id="home">
     <div class="box">
-
-      <nav>
-        <a href="#" class="logo">SHRIYA CHOUDHARY</a>
-        <ul class="headerLink">
-          <li class="headerLink-wrapper">
-            <a href="index.html" class="headerLink">HOME</a>
-          </li>
-          <li class="headerLink-wrapper">
-            <a href="index.html#about" class="headerLink">ABOUT</a>
-          </li>
-          <li class="headerLink-wrapper">
-            <a href="index.html#projects">PROJECTS</a>
-          </li>
-          <li class="headerLink-wrapper">
-            <a href="index.html#certificate">CERTIFICATE</a>
-          </li>
-          <li class="headerLink-wrapper">
-            <a href="index.html#contact">CONTACT</a>
-          </li>
-        </ul>
-        <i class="fa fa-bars"></i>
-      </nav>
-
-
       <div class="content">
+        <div class="section-1">
+          <h1 class="loading"><span class="inputt"></span></h1>
+          <h3 class="loading delay-1">Full Stack Web Developer</h3>
+          <p class="loading delay-2">Frontend Developer with experience building responsive React applications and
+            integrating backend APIs using Flask. Passionate about learning, growing skills, and delivering smooth user
+            experiences.</p>
+          <a href="myassets/Shriya Choudhary CV.pdf" class="btn loading delay-3">My Resume</a>
+        </div>
 
         <div class="section-2">
-          <img src="./myassets/meFormal.jpeg">
-          <!-- <i class='bx bxs-like bx-spin'></i> -->
-        </div>
-        <div class="section-1">
-          <h1> <span class="inputt"></span></h1>
-          <br>
-          <h3>Full Stack Web Developer</h3>
-          <p>Frontend Developer with experience building responsive React applications and integrating backend APIs
-            using Flask. Passionate about learning, growing skills, and delivering smooth user experiences.</p>
-          <!-- //add resume drive or pdf-->
-          <a href="myassets/Shriya Choudhary CV.pdf" target="_blank" class="btn">My Resume</a>
+          <div class="img-wrapper">
+            <img src="./myassets/meFormal.jpeg" alt="Profile Photo">
+          </div>
         </div>
 
         <div class="social">
@@ -69,17 +57,17 @@
       </div>
     </div>
   </div>
-  <!-- ---------------------- About Me Section ---------------------- -->
+
   <section id="about">
     <div class="row">
       <div class="about-col-1">
-        <img src="myassets/carMe.jpeg" alt="Profile Photo">
+        <img src="myassets/carMe.jpeg" alt="About Me">
       </div>
 
       <div class="about-col-2">
         <h1 class="subtitle">About Me</h1>
         <p>
-          I’m a Full Stack Web Developer experienced in ReactJS and Flask, focused on creating intuitive and efficient
+          I'm a Full Stack Web Developer experienced in ReactJS and Flask, focused on creating intuitive and efficient
           web applications. I enjoy solving challenges and continuously improving my technical skills to build impactful
           projects.
         </p>
@@ -93,194 +81,33 @@
         <div class="tab-contents active-tab" id="Skills">
           <ul>
             <li><span>Programming Languages:</span> Python, C++, JavaScript, SQL</li>
-            <li><span>Web & App Development:</span> ReactJS, React Native, Flask, HTML, CSS, Bootstrap, Tailwind, Expo,
-              Web App Development</li>
+            <li><span>Web & App Development:</span> ReactJS, React Native, Flask, HTML, CSS, Bootstrap, Tailwind</li>
             <li><span>Databases:</span> PostgreSQL, SQLite, MySQL</li>
             <li><span>Frameworks & Libraries:</span> React.js, Bootstrap, Tailwind, Flask</li>
-            <li><span>Tools & Platforms:</span> Git, GitHub, VS Code, Postman, Figma, PowerPoint, MS Word</li>
-            <li><span>Concepts:</span> OOP, REST APIs, Frontend–Backend Integration, Responsive UI/UX, Debugging,
-              Version Control</li>
-            <li><span>Operating System:</span> Windows</li>
-            <li><span>Soft Skills:</span> Teamwork, Communication</li>
+            <li><span>Tools & Platforms:</span> Git, GitHub, VS Code, Postman, Figma</li>
+            <li><span>Concepts:</span> OOP, REST APIs, Frontend–Backend Integration, Responsive UI/UX</li>
           </ul>
         </div>
 
-
         <div class="tab-contents" id="Education">
           <ul>
-            <li><span>Graduation:</span> GGSIPU (B.Tech Computer Science Engineering)<br>CGPA: 8.3 | 2020–2024</li>
-            <li><span>12th (PCM):</span> Midfields Sr. Sec. School<br>CGPA: 7.89 | 2020</li>
-            <li><span>10th:</span> Rama Krishna Public School<br>CGPA: 8.1 | 2018</li>
+            <li><span>Graduation:</span> GGSIPU (B.Tech Computer Science Engineering) - CGPA: 8.3 | 2020–2024</li>
+            <li><span>12th (PCM):</span> Midfields Sr. Sec. School - CGPA: 7.89 | 2020</li>
+            <li><span>10th:</span> Rama Krishna Public School - CGPA: 8.1 | 2018</li>
           </ul>
         </div>
 
         <div class="tab-contents" id="Experience">
           <ul>
-            <li>
-              <span>CodSoft (Intern)</span><br>
-              Aug–Sept 2023 | C++ Programming<br>
-              Developed a movie ticket booking system, word counter, and scientific calculator.
-            </li>
-            <li>
-              <span>Bharat Intern (Web Developer)</span><br>
-              Aug–Sept 2023 | Remote<br>
-              Built projects including a Netflix Clone and portfolio website.
-            </li>
-            <li>
-              <span>YoursThatSenior (Full Stack Developer)</span><br>
-              Sept 2022–Jan 2023<br>
-              Built a live chat system in <a href="https://github.com/neophytz" target="_blank">Neophytz</a> to enhance
-              customer recruitment efficiency.
-            </li>
-            <li>
-              <span>Proximus Society (Technical Head)</span><br>
-              Sept 2022–Oct 2023<br>
-              Led technical initiatives and organized career roadmap seminars on campus.
-            </li>
+            <li><span>CodSoft (Intern)</span> - Aug–Sept 2023 | C++ Programming</li>
+            <li><span>Bharat Intern (Web Developer)</span> - Aug–Sept 2023 | Remote</li>
+            <li><span>YoursThatSenior (Full Stack Developer)</span> - Sept 2022–Jan 2023</li>
+            <li><span>Proximus Society (Technical Head)</span> - Sept 2022–Oct 2023</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-
-  <!-----------------------------------------------------------------------------Activities------------------------------------------------------------------------------>
-  <div id="certificate">
-    <h1 class="subtitle">Activities</h1>
-    <div class="project-list">
-      <div class="pdf">
-        <img src="./myassets/mystagePrxms2.jpeg">
-        <h2>College Seminars</h2>
-        <p>Organized College Seminars sessions like roadmaps to cousres, internship, placements many times with Proximus
-          Society Team in our college HMRITM, Hamidpur.</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/GDSCme.jpg">
-        <h2> GDSC WOW</h2>
-        <p>Joined Google Developer Student Club (GDSC WOW) sessions as an attendee, in GBU Noida</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/anug certificate.jpg">
-        <h2><br>Anugoonj 2024</h2>
-        <p><br><br>Got second position as Best street dancer in the prelims of IPU fest 'Anugoonj 2024' </p>
-      </div>
-
-      <div class="pdf">
-        <img src="./myassets/CampaignActivity.jpg">
-        <h2>Campaign Volunteer</h2>
-        <p>I have been participated in Mass Awareness Campaign against diseases and unhealthy lifestyle. I also
-          financially supported the suffering candidates of Cancer/Hepatitis Of B-Grade with a small contribution of
-          money to Care Promise Welfare Society</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/nestleshriya.jpg">
-        <h2> <br>Nestle Sustainability Program</h2>
-        <p><br>Completing Nestle's e-learning on sustainability equips participants with essential knowledge and skills
-          for promoting sustainable practices within the company.</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/Hackerankcpp.png">
-        <h2> <br>Hackerrank Badges </h2>
-        <p><br><br>Achieved 3 stars, in Hackerrank for my Coding skills.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-----------------------------------------------------------------------------Projects--------------------------------------------------------------------------------->
-  <div id="projects">
-    <h1 class="subtitle">Projects</h1>
-    <div class="project-list">
-      <div>
-        <i class='bx bxs-file-excel'></i>
-        <h2>Magic Excel Utility</h2>
-        <p>A sleek, interactive web app built with ReactJS, JSX, and Tailwind CSS, deployed on Netlify. It enhances
-          Excel file management with seamless data visualization, intuitive navigation, and a responsive design for a
-          superior user experience.</p>
-        <br><br><br>
-        <a href="https://github.com/shrexa/Magic-Excel-Utility" target="_blank" class="btn">GitHub</a>
-        <a href="https://magic-excel-utility.netlify.app/" target="_blank" class="btn">Visit Site</a>
-      </div>
-
-      <div>
-        <!-- <i class='bx bx-landscape' ></i> -->
-        <i class='bx bx-street-view'></i>
-        <h2>Municipalities Issue Reporting App</h2>
-        <p>This 'Issue Reporting Mobile App' allows users to report problems (e.g., maintenance issues or public
-          complaints) and track them in real-time location.It improves community management by streamlining issue
-          reporting and resolution. Built using React Native, the app features an intuitive UI and smooth navigation,
-          ensuring ease of use. In real life, this app can be used by municipalities, housing societies, or
-          organizations to quickly address and manage public concerns.</p>
-        <br><br> <br>
-        <a href='https://github.com/Gyani25k/React-app/tree/shriya-main' target="_blank" class="btn">GitHub</a>
-        <a href="" class="btn">Watch Video</a>
-      </div>
-      <div>
-        <!-- <i class='bx bx-mobile-landscape'></i> -->
-        <!-- <box-icon name='camera-movie'></box-icon> -->
-        <i class='bx bx-rupee'></i>
-        <h2>Splitwise Transaction WebApp</h2><br><br> <br>
-        <p> developed using React and Bootstrap <br><br><br>
-          • The system provides Equal/Custom Splitting of Transaction expenses among individuals and also UX with
-          real-time
-          balance updates, tracks expenses, smart splitting logic, and a stylish balance sheet. Application Features:
-          1.Add
-          Transactions 2.View Transactions 3.Split 4.Balance Sheet 5.Dummy Data</p><br>
-
-        <a href="https://github.com/shrexa/Splitwise-Transactions" target="_blank" class="btn">GitHub</a>
-        <a href="https://splitwise-transaction-web-app.netlify.app/" target="_blank" class="btn">Visit Link</a>
-      </div>
-      <div>
-        <!-- <i class='bx bx-mobile-landscape'></i> -->
-        <!-- <box-icon name='camera-movie'></box-icon> -->
-        <i class='bx bx-camera-movie'></i>
-        <h2>Movie Ticket Booking System</h2><br><br> <br>
-        <p>A C++ Project - I developed a program that simulates a movie ticket booking system. Allowed users to view
-          movie listings, select seats, make bookings, and calculate the total cost. Considered implementing seat
-          availability and seat selection validation.!</p><br>
-
-        <a href="https://github.com/shrexa/MovieTicketBookingSystem" target="_blank" class="btn">GitHub</a>
-        <a href="https://drive.google.com/file/d/1zttRWHXY3PbN0rZ3TZ2KtMYsXNZjOKNa/view?usp=sharing" target="_blank"
-          class="btn">Watch Video</a>
-      </div>
-      <div>
-        <!-- <img src="./myassets/netflixbox.ico" height="50px"> -->
-        <i>N</i>
-        <br><br> <br>
-        <h2>Netflix Clone Website</h2>
-        <p>My personal portfolio website showcases my professional and academic background, skills, projects,
-          certificates, achievements, resume, and contact details. It is a self-developed website that reflects my
-          personality and interests.</p>
-        <br><br> <br>
-        <a href="https://shrexa.github.io/Netflix-clone/" target="_blank" class="btn">View Website</a>
-        <a href='https://github.com/shrexa/portfolio' target="_blank" class="btn">GitHub</a><br><br><br>
-        <a href="https://www.linkedin.com/posts/shriya-choudhary-87524a216_netflixclone-netflixproject-clonewebsite-activity-7106711658986651649-KEej?utm_source=share&utm_medium=member_desktop"
-          target="_blank" class="btn">Watch Video</a>
-      </div>
-      <div>
-        <!-- <i class='bx bx-landscape' ></i> -->
-        <i class='bx bx-book-reader'></i>
-        <h2>Word Counts within an file</h2>
-        <p>Develop a program that counts the number of words in a given text file. Prompt the user to enter the file
-          name and display the total word count.</p>
-        <br><br> <br>
-        <a href='https://github.com/shrexa/word-count' target="_blank" class="btn">GitHub</a>
-        <a href="https://drive.google.com/file/d/1xiNBxeOCM5bdyOiM-OLtF-ojZIZBsNVC/view?usp=sharing" target="_blank"
-          class="btn">Watch Video</a>
-      </div>
-
-      <div>
-        <i class='bx bxs-calculator'></i>
-        <h2>Calculator</h2>
-        <p>Performs basic arithmetic operations and complex mathematical operations such as
-          add,subtract,multiply<br>,divide,cube,power,root,modulus,<br>Fibonacci,trignometric,etc. Allow the user to
-          input two numbers and choose an operation to perform.</p>
-        <br><br><br>
-        <a href="https://github.com/shrexa/Calculator-Cpp" target="_blank" class="btn">GitHub</a>
-        <a href="https://drive.google.com/file/d/19hOqHbkalOI4ltDiizpd1d3Nk8WMdK-n/view?usp=sharing" target="_blank"
-          class="btn">Watch Video</a>
-      </div>
-
-    </div>
-  </div>
 
 
   <!-----------------------------------------------------------------------------Experience------------------------------------------------------------------------------>
@@ -290,8 +117,10 @@
       <div class="pdf">
         <img src="./myassets/offer ltr.jpg">
         <h2>Frontend Developer - Solidus Lifesciences Pvt. Ltd.</h2>
-        <p>Working on 'Phormula tool' used to make easy understanding for e-commerce seller their reports
-          Skills used Figma, ReactJS , API, Python
+        <p>I’m currently working as a Frontend Developer on a D2C brand analytics tool designed specifically for Amazon
+          sellers. While my primary focus is frontend, I’ve also contributed to backend tasks such as creating response
+          routes and integrating the backend with a SQLite database using Flask.
+          Tech stack used: ReactJS, React Router, Flask, SQLite, JavaScript, CSS3, Git.
         </p>
       </div>
       <div class="pdf">
@@ -331,50 +160,147 @@
 
     </div>
   </div>
-  <!-----------------------------------------------------------------------------Activities------------------------------------------------------------------------------>
-  <div id="certificate">
-    <h1 class="subtitle">Activities</h1>
-    <div class="project-list">
-      <div class="pdf">
-        <img src="./myassets/mystagePrxms2.jpeg">
-        <h2>PepSheCo star Program</h2>
-        <p>The program aims to educate and empower women in the field of supply chain.
-          The PepShe Supply Chain Stars program is a campus competition for female undergraduate students in engineering
-          streams that is run by PepsiCo India in collaboration with Internshala.</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/SupplyChain3-1.png">
-        <h2>College Seminars</h2>
-        <p>Organized College Seminars sessions like roadmaps to cousres, internship, placements many times with Proximus
-          Society Team in our college HMRITM, Hamidpur.</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/GDSCme.jpg">
-        <h2> GDSC WOW</h2>
-        <p>Joined Google Developer Student Club (GDSC WOW) sessions as an attendee, in GBU Noida</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/anug certificate.jpg">
-        <h2>Anugoonj 2024</h2>
-        <p>Got second position as Best street dancer in the prelims of IPU fest 'Anugoonj 2024' </p>
-      </div>
 
-      <div class="pdf">
-        <img src="./myassets/CampaignActivity.jpg">
-        <h2>Campaign Volunteer</h2>
-        <p>I have been participated in Mass Awareness Campaign against diseases and unhealthy lifestyle. I also
-          financially supported the suffering candidates of Cancer/Hepatitis Of B-Grade with a small contribution of
-          money to Care Promise Welfare Society</p>
-      </div>
-      <div class="pdf">
-        <img src="./myassets/nestleshriya.jpg">
-        <h2> Nestle Sustainability Program</h2>
-        <p>Completing Nestle's e-learning on sustainability equips participants with essential knowledge and skills for
-          promoting sustainable practices within the company.</p>
+
+
+
+
+  <div id="projects">
+    <div style="text-align: center; max-width: 1200px; margin: 0 auto;">
+      <h1 class="subtitle">Projects</h1>
+      <div class="project-list">
+
+        <!-- Magic Excel Utility -->
+        <div>
+          <i class='bx bx-file'></i>
+          <h2>Magic Excel Utility</h2>
+          <p>A sleek, interactive web app built with ReactJS, JSX, and Tailwind CSS, deployed on Netlify. It enhances
+            Excel file management with seamless data visualization.</p>
+          <a href="https://github.com/shrexa/Magic-Excel-Utility" target="_blank" class="btn">GitHub</a>
+          <a href="https://magic-excel-utility.netlify.app/" target="_blank" class="btn">Visit Site</a>
+        </div>
+
+        <!-- Municipalities Issue Reporting App -->
+        <div>
+          <i class='bx bx-street-view'></i>
+          <h2>Municipalities Issue Reporting App</h2>
+          <p>This mobile app allows users to report problems and track them in real-time location. Built using React
+            Native with intuitive UI.</p>
+          <a href="https://github.com/Gyani25k/React-app/tree/shriya-main" target="_blank" class="btn">GitHub</a>
+          <a href="" target="_blank" class="btn">Watch Video</a> <!-- Add video link here if available -->
+        </div>
+
+        <!-- Splitwise Transaction WebApp -->
+        <div>
+          <i class='bx bx-rupee'></i>
+          <h2>Splitwise Transaction WebApp</h2>
+          <p>Developed using React and Bootstrap. Provides Equal/Custom Splitting of Transaction expenses among
+            individuals with real-time balance updates.</p>
+          <a href="https://github.com/shrexa/Splitwise-Transactions" target="_blank" class="btn">GitHub</a>
+          <a href="https://splitwise-transaction-web-app.netlify.app/" target="_blank" class="btn">Visit Link</a>
+        </div>
+
+        <!-- Movie Ticket Booking System -->
+        <div>
+          <i class='bx bx-camera-movie'></i>
+          <h2>Movie Ticket Booking System</h2>
+          <p>A C++ Project that simulates a movie ticket booking system. Allows users to view movie listings, select
+            seats, and make bookings.</p>
+          <a href="https://github.com/shrexa/MovieTicketBookingSystem" target="_blank" class="btn">GitHub</a>
+          <a href="https://drive.google.com/file/d/1zttRWHXY3PbN0rZ3TZ2KtMYsXNZjOKNa/view?usp=sharing" target="_blank"
+            class="btn">Watch Video</a>
+        </div>
+
+        <!-- Netflix Clone Website -->
+        <div>
+          <i class="bx bx-movie"></i>
+          <h2>Netflix Clone Website</h2>
+          <p>A responsive Netflix clone website showcasing modern web development techniques with clean UI and smooth
+            animations.</p>
+          <a href="https://shrexa.github.io/Netflix-clone/" target="_blank" class="btn">View Website</a>
+          <a href="https://github.com/shrexa/portfolio" target="_blank" class="btn">GitHub</a>
+          <a href="https://www.linkedin.com/posts/shriya-choudhary-87524a216_netflixclone-netflixproject-clonewebsite-activity-7106711658986651649-KEej?utm_source=share&utm_medium=member_desktop"
+            target="_blank" class="btn">Watch Video</a>
+        </div>
+
+        <!-- Word Count Project (Assuming it’s a separate one) -->
+        <div>
+          <i class='bx bx-edit'></i>
+          <h2>Word Count Utility</h2>
+          <p>A simple utility to count words in a text file. Useful for document analysis.</p>
+          <a href="https://github.com/shrexa/word-count" target="_blank" class="btn">GitHub</a>
+          <a href="https://drive.google.com/file/d/1xiNBxeOCM5bdyOiM-OLtF-ojZIZBsNVC/view?usp=sharing" target="_blank"
+            class="btn">Watch Video</a>
+        </div>
+
+        <!-- Scientific Calculator -->
+        <div>
+          <i class='bx bxs-calculator'></i>
+          <h2>Scientific Calculator</h2>
+          <p>Performs basic arithmetic operations and complex mathematical operations including trigonometric functions
+            and advanced calculations.</p>
+          <a href="https://github.com/shrexa/Calculator-Cpp" target="_blank" class="btn">GitHub</a>
+          <a href="https://drive.google.com/file/d/19hOqHbkalOI4ltDiizpd1d3Nk8WMdK-n/view?usp=sharing" target="_blank"
+            class="btn">Watch Video</a>
+        </div>
+
       </div>
     </div>
   </div>
+
+
+
+
+  <!-----------------------------------------------------------------------------Activities------------------------------------------------------------------------------>
+  <div id="certificate">
+    <div style="text-align: center; max-width: 1200px; margin: 0 auto;">
+      <h1 class="subtitle">Activities & Achievements</h1>
+      <div class="project-list">
+        <div class="pdf">
+          <img src="./myassets/mystagePrxms2.jpeg" alt="College Seminars">
+          <h2>College Seminars</h2>
+          <p>Organized College Seminars sessions like roadmaps to courses, internships, placements with Proximus Society
+            Team.</p>
+        </div>
+
+        <div class="pdf">
+          <img src="./myassets/GDSCme.jpg" alt="GDSC WOW">
+          <h2>GDSC WOW</h2>
+          <p>Joined Google Developer Student Club (GDSC WOW) sessions as an attendee, in GBU Noida.</p>
+        </div>
+
+        <div class="pdf">
+          <img src="./myassets/anug certificate.jpg" alt="Anugoonj 2024">
+          <h2>Anugoonj 2024</h2>
+          <p>Got second position as Best street dancer in the prelims of IPU fest 'Anugoonj 2024'.</p>
+        </div>
+
+        <div class="pdf">
+          <img src="./myassets/CampaignActivity.jpg" alt="Campaign Volunteer">
+          <h2>Campaign Volunteer</h2>
+          <p>Participated in Mass Awareness Campaign against diseases and unhealthy lifestyle with financial support to
+            welfare society.</p>
+        </div>
+
+        <div class="pdf">
+          <img src="./myassets/nestleshriya.jpg" alt="Nestle Program">
+          <h2>Nestle Sustainability Program</h2>
+          <p>Completed Nestle's e-learning on sustainability promoting sustainable practices within the company.</p>
+        </div>
+
+        <div class="pdf">
+          <img src="./myassets/mystagePrxms2.jpeg">
+          <h2>PepSheCo star Program</h2>
+          <p>The program aims to educate and empower women in the field of supply chain.
+            The PepShe Supply Chain Stars program is a campus competition for female undergraduate students in
+            engineering
+            streams that is run by PepsiCo India in collaboration with Internshala.</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+
   <!-- ---------------------- Contact Section ---------------------- -->
   <div id="contact">
     <div class="row">
@@ -425,11 +351,12 @@
   <script>
     var typed = new Typed(".inputt", {
       strings: ["Hi, I am Shriya Choudhary", "Welcome to my portfolio!"],
-      typespeed: 20,
-      backspeed: 20,
+      typeSpeed: 20,
+      backSpeed: 20,
       loop: true
-    })
+    });
   </script>
+
 </body>
 
 </html>
